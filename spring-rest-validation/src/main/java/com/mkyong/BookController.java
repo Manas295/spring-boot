@@ -15,6 +15,9 @@ import java.util.Map;
 
 @RestController
 @Validated
+/*
+ * If the @Validated is failed, it will trigger a ConstraintViolationException, we can override the error code 
+ */
 public class BookController {
 
     @Autowired
