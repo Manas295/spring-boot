@@ -2,6 +2,9 @@ package com.mkyong;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mkyong.domain.Book;
+import com.mkyong.repositories.BookRepository;
+
 import org.json.JSONException;
 import org.junit.Test;
 import org.junit.runner.RunWith;

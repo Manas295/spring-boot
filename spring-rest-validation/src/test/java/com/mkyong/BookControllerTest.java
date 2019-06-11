@@ -1,6 +1,9 @@
 package com.mkyong;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mkyong.domain.Book;
+import com.mkyong.repositories.BookRepository;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
